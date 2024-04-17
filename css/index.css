@@ -74,3 +74,7 @@ input {
     color: #444;
     font-weight: 300;
 }
+
+.cover.image:hover{
+    transform:scale(1.2)
+}
