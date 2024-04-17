@@ -39,7 +39,12 @@ ol{
     margin: auto;
     margin-top: 20px;
     display: block;
+    transition: all .2s ease-in-out;
 }
+  
+.cover-image:hover {
+    transform: scale(1.25);
+  }
 
 .text-wrapper{
     width: 74%;
@@ -66,15 +71,18 @@ ol{
 }
 
 input {
-    border: 0px;
+    border: solid 0px;
     background-color: transparent;
-    font-size: 48px;
-    width: 600px;
+    font-size: 24px;
+    width: 150px;
     font-family: "Arial";
     color: #444;
     font-weight: 300;
+    transition: border-width 0.15s linear;
+    border-radius: 20px;
 }
 
-.cover-image:hover { 
-transform: scale(3); 
+input:hover {
+        border:1.75px solid #000000;
+        border-radius: 20px;
 }
