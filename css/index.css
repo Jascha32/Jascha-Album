@@ -1,5 +1,6 @@
 body{
     font-family: 'Helvetica Neue',sans-serif;
+    background-color: black;
 }
 
 .pagecontent {
@@ -12,10 +13,22 @@ body{
 h1{
     font-weight: 300;
     font-size: 48pt;
+    display: inline;
+    margin-right: 750px;
+    color: rgb(252, 71, 71);
+}
+
+h2{
+    color: rgb(252, 71, 71);
+}
+
+h3{
+    color: rgb(252, 71, 71);
 }
 
 ol{
     margin: 0px;
+    color: rgb(252, 71, 71);
 }
 
 .line{
@@ -35,7 +48,6 @@ ol{
 .cover-image {
     max-width: 150px;
     width: 90%;
-    padding: 5%;
     margin: auto;
     margin-top: 20px;
     display: block;
@@ -44,7 +56,9 @@ ol{
   
 .cover-image:hover {
     transform: scale(1.25);
-  }
+    border: solid 10px;
+    border-color: rgb(252, 71, 71);
+  }    
 
 .text-wrapper{
     width: 74%;
@@ -65,7 +79,7 @@ ol{
 }
 
 .label-info{
-    margin-top: 20px;
+    margin-top: 100px;
     color: #999;
     font-style: italic;
 }
@@ -76,13 +90,17 @@ input {
     font-size: 24px;
     width: 150px;
     font-family: "Arial";
-    color: #444;
+    color: rgb(252, 71, 71);
     font-weight: 300;
     transition: border-width 0.15s linear;
     border-radius: 20px;
 }
 
 input:hover {
-        border:1.75px solid #000000;
+        border:1.75px solid rgb(252, 71, 71);
         border-radius: 20px;
+}
+
+.album {
+    margin-top: 20px;
 }
